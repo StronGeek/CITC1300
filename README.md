@@ -1,1 +1,1 @@
-# CITC1300
+# School Project Folder
