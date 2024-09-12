@@ -1,0 +1,117 @@
+body{
+background-color: red;
+}
+
+#container {
+    background-color: aqua;
+    width: 65%;
+    margin: 20px auto;
+    border: 20px solid black;
+    padding: 20px;
+    
+}
+
+#containerTwo {
+    background-color: aqua;
+    width: 65%;
+    margin: 20px auto;
+    border: 20px solid black;
+    padding: 20px;
+    
+}
+
+#containerThree {
+    background-color: aqua;
+    width: 65%;
+    margin: 20px auto;
+    border: 20px solid black;
+    padding: 20px;
+    
+}
+#col_one{
+    width: 90%;
+    border: 2px solid black;
+}
+
+#col_two{
+    width: 90%;
+    border: 2px solid black;
+    
+}
+
+.bonfire{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+}
+
+.resize {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+
+}
+.bone_size{
+    display: block;
+    margin: 0 auto;
+    width: 30%;
+    height: 30%;
+
+}
+
+.Nito{
+    display: block;
+    margin: 0 auto;
+    width: 35%;
+    height: 25%;
+}
+img{
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+}
+
+nav{
+    text-align: center;
+    margin: 20px 0;
+    background-color: blueviolet;
+    padding: 5px;
+}
+
+nav ul{
+    list-style-type: none;
+    
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav li a{
+    display: block;
+    color:black;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 20px; 
+    width: 125px;
+    height: 40px;
+    line-height: 40px;
+
+}
+
+nav a:hover{
+    background-color: orange;
+}
+
+#multiCol{
+    display: flex;
+    
+}
+
+h1, h2, h3, h4, footer {
+    text-align: center;
+}
