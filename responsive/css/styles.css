@@ -1,0 +1,151 @@
+/*Global Styles*/
+
+body{
+    background-color: #02E6E4;
+}
+
+a href{
+    background-color: black;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.Nito{
+    width:40%;
+    height: 40%;
+}
+
+.reszie{
+    width:30%;
+    height: 30%;
+}
+
+.bone_size{
+    width: 30%;
+    height: 30%;
+}
+
+.bonfire{
+    width: 30%;
+    height: 30%;
+}
+
+#container{
+    background-color: #5621E6;
+}
+
+.hyper{
+    color: black;
+}
+
+
+/*Mobile Styles*/
+@media (min-width: 320px) {
+    nav{
+        background-color: red;
+        padding: 5px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    nav li{
+        display: block;
+    }
+
+    nav li a{
+        display: block;
+        height: 30px;
+        line-height: 30px;
+        background-color: yellowgreen;
+        color: purple;
+        font-size: large;
+        text-decoration: none;
+        margin-top: 5px;
+    }
+
+    nav li a:hover {
+        background-color: blue;
+    }
+
+    main{
+        padding: 20px;
+    }
+
+    h1, h2, h3, h4 {
+        text-align: center;
+        color: #F57301;
+        text-shadow: 1px 1px 1px black; 
+    }
+
+    footer{
+        text-align: center;
+        padding: 40px;
+    }
+    
+}
+
+/* Tablet Styles */
+@media (min-width: 768px){
+    nav{
+        background-color: red;
+        padding: 5px;
+        margin-top: 10px;
+        text-align: center;
+    }
+    
+    nav li{
+        display: inline-block;
+    }
+
+    nav li a{
+        background-color: orange;
+        width: 125px;
+        height: 50px;
+        line-height: 50px;
+        margin: 5px;
+    }
+
+    img{
+        width: 50%;
+    }
+}
+
+/* Desktop Styles*/
+@media(min-width: 1024px){
+    #container{
+        width: 65%;
+        margin: 20px auto;
+        border: 1px solid black;
+        border-radius: 20px;
+    }
+
+    nav{
+        background-color: grey;
+        padding: 0;
+        margin-top: 0;
+    }
+
+    nav li a{
+        background-color: black;
+    }
+
+    #multi_col{
+        display: flex;
+    }
+
+    .col{
+        margin: 20px;
+        padding: 20px;
+        border: 2px solid black;
+    }
+
+}
